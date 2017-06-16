@@ -1,0 +1,215 @@
+@import url(m_style.css);
+.cen {
+  margin: 0 auto;
+}
+body {
+  font-weight: 'Microsoft YaHei', sans-serif;
+}
+.navbar-default {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.88);
+  height: 60px;
+}
+nav.navbar.navbar-default.navbar-fixed-top {
+  background-color: #fff;
+  border: none;
+}
+a.navbar-brand {
+  font-size: 26px;
+  font-weight: bold;
+}
+.navbar-default a.navbar-brand {
+  color: #439c88;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+}
+.navbar-default .navbar-toggle {
+  border-color: #439c88;
+  background-color: #45d2b8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #209678;
+}
+#home {
+  background: url(../img/home-bg.jpg);
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  color: #FFFFFF;
+}
+#home h1 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#home img {
+  margin-top: 30px;
+  display: inline-block;
+}
+.lvjing {
+  width: 100%;
+  height: 100%;
+  background: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 90px 0;
+}
+#bbs {
+  padding: 80px 0;
+  text-align: center;
+}
+#bbs a {
+  color: #212121;
+  text-decoration: none;
+}
+#bbs img {
+  margin: 0 auto;
+}
+#bbs .h3,
+#bbs h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+#bbs .col-md-4 {
+  padding: 15px;
+}
+#bbs .col-md-4:hover {
+  background: #f1f1f1;
+  box-shadow: 1px 1px 4px #ccc;
+}
+#html5 {
+  background: #f8f8f8;
+  padding: 80px 0;
+}
+#html5 h2 {
+  font-weight: bold;
+}
+#html5 p {
+  line-height: 40px;
+}
+#html5 p span {
+  width: 40px;
+  height: 40px;
+  background: none;
+  background: #40d2b1;
+  color: #FFFFFF;
+  border-radius: 50% ;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 20px;
+}
+#bootstrap {
+  padding: 80px 0;
+}
+#bootstrap h2 {
+  font-weight: bold;
+}
+#bootstrap p {
+  line-height: 25px;
+}
+#bootstrap p span {
+  width: 40px;
+  height: 40px;
+  background: none;
+  background: #40d2b1;
+  color: #FFFFFF;
+  border-radius: 50% ;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 20px;
+}
+#close {
+  background: #f8f8f8;
+  padding: 80px 0;
+  text-align: center;
+}
+#close .col-md-3 {
+  margin-bottom: 20px;
+}
+#close h2 {
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+#close .cores {
+  background: #FFFFFF;
+}
+#close a.btn.btn-primary {
+  background: aliceblue;
+  border: 1px solid #2b977f;
+  border-radius: 0px;
+  color: #2b977f;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 8px 40px;
+  transition: 0.3s;
+}
+#close .cores .btn:hover {
+  background: #2b977f;
+  color: #FFFFFF;
+}
+#app {
+  padding: 80px 0;
+}
+#app h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+#app p {
+  line-height: 15px;
+  color: #3C3C3C;
+}
+#app .btn.btn-primary {
+  margin-top: 20px;
+  background: #41ccad;
+  border-radius: 0;
+  padding: 10px 30px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+#app .btn.btn-primary:hover {
+  background: #2c8e78;
+}
+#contact {
+  background: url(../img/contact-bg.png) no-repeat;
+  background-size: cover ;
+  color: white;
+}
+#contact .lvjing {
+  width: 100%;
+  height: 100%;
+  background: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 80px 0;
+}
+#contact h3 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#contact p {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+#contact input.form-control {
+  border: none;
+  border-radius: 0;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#contact textarea.form-control {
+  height: auto;
+  border: none;
+  border-radius: 0;
+}
+#contact input[type="submit"] {
+  background: #41ccad;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #fff;
+  transition: 0.3s;
+}
+#contact input[type="submit"]:hover {
+  background: #2c8e78;
+}
+footer {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+}

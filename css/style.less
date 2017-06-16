@@ -1,0 +1,226 @@
+@import url(m_style.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.cen{
+    margin: 0 auto;
+}
+.fl(@f:left){
+    float: @f;
+}
+.fr(@r:right){
+    float: @r;
+}
+body{
+    font-weight: 'Microsoft YaHei',sans-serif;
+}
+.navbar-default{
+        box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.88);
+        height: 60px;
+}
+nav.navbar.navbar-default.navbar-fixed-top {
+    background-color: #fff;
+    border: none;
+}
+a.navbar-brand {
+    font-size: 26px;
+    font-weight: bold;
+}
+.navbar-default a.navbar-brand {
+    color: #439c88;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #439c88;
+    background-color: rgb(69,210,184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #209678;
+}
+#home{
+    background: url(../img/home-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    h1{
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    img{
+        margin-top: 30px;
+        display: inline-block;
+    }
+}
+.lvjing{
+    .full(100%,100%,none);
+    background: rgba(0,0,0,0.5);
+    padding: 90px 0;
+}
+#bbs{
+    padding: 80px 0;
+    text-align: center;
+    a{
+        color: #212121;
+        text-decoration: none;
+    }
+    img{
+        .cen;
+    }
+    .h3, h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+}
+#bbs .col-md-4{
+    padding: 15px;
+}
+#bbs .col-md-4:hover{
+    
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#html5{
+    background: #f8f8f8;
+    padding: 80px 0;
+    h2{
+        font-weight: bold;
+    }
+    p{
+        line-height: 40px;
+        span{
+            .full(40px,40px,none);
+            background: rgb(64,210,177);
+            color: #FFFFFF;
+            border-radius: 50% ;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 20px;
+        }
+    }
+}
+#bootstrap{
+    padding: 80px 0;
+    h2{
+        font-weight: bold;
+    }
+    p{
+        line-height: 25px;
+        span{
+            .full(40px,40px,none);
+            background: rgb(64,210,177);
+            color: #FFFFFF;
+            border-radius: 50% ;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 20px;
+        }
+    }
+}
+#close{
+    background: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+    .col-md-3{
+        margin-bottom: 20px;
+    }
+    h2{
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+    .cores{
+        background: #FFFFFF;
+    }
+    a.btn.btn-primary {
+    background: aliceblue;
+    border: 1px solid #2b977f;
+    border-radius: 0px;
+    color: #2b977f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: 0.3s;
+}
+.cores .btn:hover{
+    background: #2b977f;
+    color: #FFFFFF;
+    
+}    
+}
+#app{
+    padding: 80px 0;
+    h2{
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    p{
+        line-height: 15px;
+        color: #3C3C3C;
+    }    
+}
+    #app .btn.btn-primary {
+    margin-top: 20px;
+    background: #41ccad;
+    border-radius: 0;
+    padding: 10px 30px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+
+} 
+ #app .btn.btn-primary:hover{
+        background: rgb(44,142,120);
+}
+
+
+#contact{
+    background: url(../img/contact-bg.png) no-repeat;
+    background-size: cover ;
+    color: white;
+.lvjing{
+    .full(100%,100%,none);
+    background: rgba(0,0,0,0.5);
+    padding: 80px 0;
+}    
+    
+    
+    h3{
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    p{
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    input.form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+    textarea.form-control{
+        height: auto;
+        border: none;
+        border-radius: 0;
+    }   
+}
+ #contact input[type="submit"]{
+        background: #41ccad;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #fff;
+        transition: 0.3s;
+    }
+ #contact input[type="submit"]:hover{
+        background: rgb(44,142,120);
+}
+
+footer{
+    background: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+}
+
